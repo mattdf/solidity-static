@@ -75,7 +75,7 @@ WORKDIR /src
 
 RUN git clone https://github.com/ethereum/webthree-umbrella
 
-ENV buildbranch=release
+ENV buildbranch=develop
 
 RUN cd webthree-umbrella \
  && git checkout ${buildbranch} --force \
